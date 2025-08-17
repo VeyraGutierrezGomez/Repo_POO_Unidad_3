@@ -61,29 +61,29 @@ java -jar sistema_vacantes.jar
 
 
 ## Funcionalidades principales
-• Publicación de vacantes en tiempo real (empresas).
-• Aplicación de postulantes concurrentes.
-• Notificaciones instantáneas al empleador.
-• Visualización de estadísticas en panel de administración.
-• Control de sincronización y manejo de concurrencia.
+- Publicación de vacantes en tiempo real (empresas).
+- Aplicación de postulantes concurrentes.
+- Notificaciones instantáneas al empleador.
+- Visualización de estadísticas en panel de administración.
+- Control de sincronización y manejo de concurrencia.
 
 ## Arquitectura y Concurrencia
-• Hilos de Empresas: generan vacantes concurrentemente.
-• Hilos de Postulantes: aplican a empleos en paralelo.
-• Colas Concurrentes: gestionan las solicitudes.
-• Eventos y Notificaciones: comunican en tiempo real.
-•Bloqueos / Monitores: evitan condiciones de carrera.
+- Hilos de Empresas: generan vacantes concurrentemente.
+- Hilos de Postulantes: aplican a empleos en paralelo.
+- Colas Concurrentes: gestionan las solicitudes.
+- Eventos y Notificaciones: comunican en tiempo real.
+- Bloqueos / Monitores: evitan condiciones de carrera.
 
 ## Interfaz Gráfica (GUI)
-El sistema cuenta con al menos 3 paneles:
-Empresas → Crear vacantes.
-Postulantes → Buscar y aplicar.
-Administración → Gestion y control.
+### El sistema cuenta con al menos 3 paneles:
+- Empresas → Crear vacantes.
+- Postulantes → Buscar y aplicar.
+- Administración → Gestion y control.
 
 ## Autores
 ### Proyecto académico desarrollado por:
-• Rubi Maria Cobos Ramos
-• Ingridh Maricela Gracia Flores
-• Veyra Maria Gutierrez Gomez
-• Jesus Emmanuel Lopez Zuñiga
-•Jennifer Elizabeth Yepez Lopez
+- Rubi Maria Cobos Ramos
+- Ingridh Maricela Gracia Flores
+- Veyra Maria Gutierrez Gomez
+- Jesus Emmanuel Lopez Zuñiga
+- Jennifer Elizabeth Yepez Lopez
